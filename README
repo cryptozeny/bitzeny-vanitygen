@@ -39,15 +39,16 @@ vanitygen, use the "-t" option.
 The example below completed quicker than average, and took about 45 sec 
 to finish, using both cores of my aging Core 2 Duo E6600:
 
-$ ./vanitygen 1Love
-Difficulty: 4476342
-[48165 K/s][total 2080000][Prob 37.2%][50% in 21.2s]                           
-Pattern: 1Love
-Address: 1LoveRg5t2NCDLUZh6Q8ixv74M5YGVxXaN
-Privkey: 5JLUmjZiirgziDmWmNprPsNx8DYwfecUNk1FQXmDPaoKB36fX1o
+$ ./vanitygen Zenyh
+Difficulty: 4553521
+Pattern: Zenyh                                                                 
+Address: ZenyhZSGkdar6TGkk9gECwoUkmBPkn4ALa
+Privkey: 5JHMFHQMF3cbkhBdEXtXsgFwtFuN6N4kUbp6QfX4fZn2GmtDHWv
 
 Currently, it is difficult to import the private key into bitcoin.  
 Sipa's showwallet branch has a new command called "importprivkey" that 
 accepts the base-58 encoded private key.  Vanitygen has been tested to 
 work with that version of bitcoin.
+
+Donate or Tip to nao20010128nao: ZuGdQvycbE9HTfke3EPcSUQEH2joaYqXjj
 
