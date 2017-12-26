@@ -331,7 +331,7 @@ version, name);
 int
 main(int argc, char **argv)
 {
-	int addrtype = 0;
+	int addrtype = 81;
 	int scriptaddrtype = 5;
 	int privtype = 128;
 	int pubkeytype;
