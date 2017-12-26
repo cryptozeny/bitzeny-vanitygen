@@ -1,6 +1,8 @@
 Linux/OSX with GNU make:
 make
 
+On Ubuntu, you need "pcre3-dev" package.
+
 Windows:
 Tools: Microsoft Visual Studio 2010, Visual C++
 Prerequisites:
