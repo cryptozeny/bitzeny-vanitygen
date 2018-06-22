@@ -50,5 +50,4 @@ Sipa's showwallet branch has a new command called "importprivkey" that
 accepts the base-58 encoded private key.  Vanitygen has been tested to 
 work with that version of bitcoin.
 
-Donate or Tip to nao20010128nao: ZuGdQvycbE9HTfke3EPcSUQEH2joaYqXjj
-
+Donate or Tip to nao20010128nao: ZkEDhozS4WZvAPeSudyyy7tbAXnUqqvkRw
