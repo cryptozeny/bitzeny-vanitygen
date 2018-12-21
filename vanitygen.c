@@ -331,8 +331,8 @@ version, name);
 int
 main(int argc, char **argv)
 {
-	int addrtype = 81;
-	int scriptaddrtype = 5;
+	int addrtype = 63;  		// legacy: starting with S (upper)
+	int scriptaddrtype = 125;	// p2sh-segwit: starting with s (lower)
 	int privtype = 128;
 	int pubkeytype;
 	enum vg_format format = VCF_PUBKEY;

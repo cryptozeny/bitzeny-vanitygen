@@ -1387,7 +1387,7 @@ vg_prefix_context_add_patterns(vg_context_t *vcp,
 	vcpp->base.vc_npatterns_start += npfx;
 
 	if (!npfx && impossible) {
-		const char *ats = "bitzeny", *bw = "\"Z\"";
+		const char *ats = "bitzeny", *bw = "\"S\"";
 		switch (vcpp->base.vc_addrtype) {
 		case 5:
 			ats = "bitzeny script";
